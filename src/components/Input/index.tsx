@@ -13,7 +13,7 @@ import { Container } from './styles';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
-  icon: ElementType;
+  icon?: ElementType;
 }
 
 function Input({ name, icon: Icon, ...rest }: InputProps) {
