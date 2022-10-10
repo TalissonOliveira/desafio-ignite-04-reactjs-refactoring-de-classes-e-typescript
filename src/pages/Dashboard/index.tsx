@@ -68,7 +68,8 @@ function Dashboard() {
 
   function handleEditFood(food: FoodData) {
     setEditingFood(food)
-    setIsModalOpen(true)
+    // setIsModalOpen(true)
+    toggleEditModal()
   }
 
   return (
